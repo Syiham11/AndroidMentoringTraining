@@ -26,30 +26,30 @@
         android:background="?android:attr/colorPressedHighlight">
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imageViewSMS"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@android:drawable/sym_action_email"
-            android:layout_marginRight="34dp"
-            android:layout_marginEnd="34dp"
-            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="34dp"
+            android:layout_marginRight="34dp"
+            app:srcCompat="@android:drawable/sym_action_email" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageViewNelfon"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@android:drawable/ic_menu_call"
-            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginLeft="36dp"
-            android:layout_marginStart="36dp" />
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            app:srcCompat="@android:drawable/ic_menu_call" />
     </RelativeLayout>
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewGambar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
@@ -58,22 +58,22 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView2"
+        android:layout_below="@+id/imageViewGambar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
         android:text="Nama"
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewNIM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNama"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="NIM"
-        android:textSize="18sp"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:textSize="18sp" />
 </RelativeLayout>
